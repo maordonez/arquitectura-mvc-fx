@@ -17,9 +17,12 @@
 <VBox stylesheets="@../styles/Styles.css"
 	xmlns="http://javafx.com/javafx/8.0.72"
 	xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="co.edu.ufps.app.controller.LoginController"
 	spacing="5"
 	styleClass = "background"
-	fx:controller="co.edu.ufps.app.controller.LoginController">
+	prefWidth="400"
+	prefHeight="200"
+	>
 	<children>
 		
 		<Label fx:id="lblLogin" text="Login" textFill="WHITE">

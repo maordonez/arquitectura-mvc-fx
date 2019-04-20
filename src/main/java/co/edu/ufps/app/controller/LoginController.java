@@ -56,13 +56,23 @@ public class LoginController implements Initializable {
 		
 		String usernameText  = username.getText();
 		String passwordText  = password.getText();
+		String rol = fruitCombo.getValue();
 		
-		if(usernameText.isEmpty() || passwordText.isEmpty()) {
+		if(usernameText.isEmpty() || passwordText.isEmpty() || rol == null ) {
 			lblLogin.setText("Diligencie todos lo campos.");
 			return;
 		}
 		
-		lblLogin.setText("Login Failed.");
+		if(authService.autentifcar(usernameText, passwordText, rol)) {
+			
+			lblLogin.setText("Login exitoso");
+			
+		}else {
+			
+			lblLogin.setText("Credenciales incorrectas");
+		}
+		
+		
 	}
 	
 	
