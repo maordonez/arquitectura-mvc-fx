@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
-import co.edu.ufps.app.logging.ExceptionWriter;
+import co.edu.ufps.app.config.logging.ExceptionWriter;
 
 @Component
 public class AppJavaConfig {

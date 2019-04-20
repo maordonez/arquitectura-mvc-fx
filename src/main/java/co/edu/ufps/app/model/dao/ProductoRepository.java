@@ -1,9 +1,9 @@
-package co.edu.ufps.app.repository;
+package co.edu.ufps.app.model.dao;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import co.edu.ufps.app.entity.Producto;
+import co.edu.ufps.app.model.entity.Producto;
 
 @Repository
 public interface ProductoRepository extends JpaRepository<Producto, Long> {

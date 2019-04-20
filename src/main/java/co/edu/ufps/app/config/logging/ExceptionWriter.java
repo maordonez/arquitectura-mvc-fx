@@ -1,4 +1,4 @@
-package co.edu.ufps.app.logging;
+package co.edu.ufps.app.config.logging;
 
 import java.io.PrintWriter;
 import java.io.Writer;

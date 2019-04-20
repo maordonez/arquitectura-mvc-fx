@@ -10,12 +10,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import co.edu.ufps.app.entity.Categoria;
-import co.edu.ufps.app.entity.Producto;
-import co.edu.ufps.app.entity.Rol;
-import co.edu.ufps.app.entity.Usuario;
-import co.edu.ufps.app.repository.ProductoRepository;
-import co.edu.ufps.app.repository.UsuarioRepository;
+import co.edu.ufps.app.model.dao.ProductoRepository;
+import co.edu.ufps.app.model.dao.UsuarioRepository;
+import co.edu.ufps.app.model.entity.Categoria;
+import co.edu.ufps.app.model.entity.Producto;
+import co.edu.ufps.app.model.entity.Rol;
+import co.edu.ufps.app.model.entity.Usuario;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
