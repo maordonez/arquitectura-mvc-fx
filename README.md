@@ -2,10 +2,10 @@
 
 Instalar plugin spring sts 4 en eclipse
 
-Instalar plugin lombok 4 en eclipse
+Instalar plugin lombok en eclipse
 https://projectlombok.org/download
 
-guia de isntalacion lombok
+guia de instalacion lombok
 https://projectlombok.org/setup/eclipse
 
 Crear base de datos en mysql con el nombre inventario, el programa monta las tablas y data
