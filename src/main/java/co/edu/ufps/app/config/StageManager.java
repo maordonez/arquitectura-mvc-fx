@@ -27,6 +27,10 @@ public class StageManager {
         show(viewRootNodeHierarchy, view.getTitle());
     }
     
+    public Parent getView(final FxmlView view) {
+    	return loadViewNodeHierarchy(view.getFxmlFile());
+    }
+    
     private void show(final Parent rootnode, String title) {
     	
     	log.info(rootnode.getStyle());

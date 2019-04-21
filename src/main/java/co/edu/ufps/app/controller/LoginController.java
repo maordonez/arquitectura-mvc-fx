@@ -20,7 +20,9 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Controller;
 
 import co.edu.ufps.app.config.StageManager;
+import co.edu.ufps.app.model.entity.Rol;
 import co.edu.ufps.app.model.service.AuthService;
+import co.edu.ufps.app.view.FxmlView;
 
 @Slf4j
 @Controller
@@ -65,7 +67,15 @@ public class LoginController implements Initializable {
 		
 		if(authService.autentifcar(usernameText, passwordText, rol)) {
 			
-			lblLogin.setText("Login exitoso");
+			if(Rol.Administrador.name().equals(rol)) {
+				
+				stageManager.switchScene(FxmlView.DASHBOARD_ADMINISTRADOR);
+				
+			}else {
+				stageManager.switchScene(FxmlView.DASHBOARD_CAJERO);
+			}
+			
+			
 			
 		}else {
 			
@@ -78,7 +88,10 @@ public class LoginController implements Initializable {
 	
     @Override
 	public void initialize(URL location, ResourceBundle resources) {
+    	password.setText("cajeropass");
+    	username.setText("1040520180");
 		fruitCombo.getItems().addAll(authService.listarRoles());
+		fruitCombo.setValue("Cajero");
 	}
 
 }
