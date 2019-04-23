@@ -26,7 +26,7 @@ public class Producto {
 	@Column(name="num_serie")
 	private Long idProducto;
 	
-	@Column(name="nombre_producto")
+	@Column(name="nombreproducto")
 	private String nombre;
 	
 	private String proveedor;
@@ -34,10 +34,10 @@ public class Producto {
 	@Enumerated(EnumType.STRING)
 	private Categoria categoria;
 	
-	@Column(name="precio_unidad")
+	@Column(name="preciounidad")
 	private Integer precioUnidad;
 	
-	@Column(name="cantidad_existente")
+	@Column(name="cantidadexistente")
 	private Integer cantidadExistente;
 
 }

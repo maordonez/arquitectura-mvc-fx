@@ -1,0 +1,21 @@
+#dashItem{
+	-fx-background-color: #FFFFFF;
+    -fx-text-fill: #B4B4B4;
+}
+
+#dashItem:hover{
+    -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #0CB9FF, #FFFFFF);
+}
+
+.button
+{
+-fx-background-color : none;
+  -fx-text-fill: #B4B4B4;
+  -fx-border-color: #0AC3EC;
+}
+.button:hover{
+  -fx-background-color: linear-gradient(to bottom right, #08BAF8, #0D71AF);
+-fx-text-fill :white;
+
+}
+

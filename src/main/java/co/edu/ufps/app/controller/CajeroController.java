@@ -8,10 +8,12 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Controller;
 
 import co.edu.ufps.app.config.StageManager;
+import co.edu.ufps.app.model.service.ProductoService;
 import co.edu.ufps.app.view.FxmlView;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.control.Button;
 import javafx.scene.layout.AnchorPane;
@@ -41,7 +43,9 @@ public class CajeroController implements Initializable {
 	@Lazy
 	@Autowired
 	private StageManager stageManager;
-
+	
+	
+	
 	public void handleClicks(ActionEvent actionEvent) {
 
 		if (actionEvent.getSource() == this.btnInventario) {
@@ -69,6 +73,9 @@ public class CajeroController implements Initializable {
 	public void initialize(URL location, ResourceBundle resources) {
 
 		setParent(stageManager.getView(FxmlView.CAJERO_INVENTARIO));
+		
+		
+	
 
 	}
 

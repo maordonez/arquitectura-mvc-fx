@@ -1,0 +1,2 @@
+INSERT INTO `usuario` (`id_usuario`, `cedula`, `nombre`, `apellido`, `rol`, `password`) VALUES (NULL, '89340935', 'Miguel Angel', 'Ordoñez Gayon', 'Cajero', '1234'), (NULL, '234546', 'Pepito', 'Perez', 'Administrador', '1234');
+INSERT INTO `producto` (`num_serie`, `nombre_producto`, `proveedor`, `categoria`, `precio_unidad`, `cantidad_existente`) VALUES (NULL, 'Pepsi', 'Juanito Perez', 'Bebidas', '1000', '40'), (NULL, 'Manzana', 'Diego Perez', 'Frutas', '500', '1000');

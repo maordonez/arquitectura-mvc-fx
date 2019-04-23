@@ -8,7 +8,7 @@ import javafx.application.Platform;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-
+import javafx.fxml.FXMLLoader;
 import co.edu.ufps.app.view.FxmlView;
 
 @Slf4j
@@ -29,6 +29,9 @@ public class StageManager {
     
     public Parent getView(final FxmlView view) {
     	return loadViewNodeHierarchy(view.getFxmlFile());
+    }
+    public Parent getView(final FxmlView view, Object obj) {
+    	return loadViewNodeHierarchy(view.getFxmlFile(),obj);
     }
     
     private void show(final Parent rootnode, String title) {
@@ -71,6 +74,17 @@ public class StageManager {
         Parent rootNode = null;
         try {
             rootNode = springFXMLLoader.load(fxmlFilePath);
+            Objects.requireNonNull(rootNode, "A Root FXML node must not be null");
+        } catch (Exception exception) {
+            logAndExit("Unable to load FXML view" + fxmlFilePath, exception);
+        }
+        return rootNode;
+    }
+    
+    private Parent loadViewNodeHierarchy(String fxmlFilePath, Object obj) {
+        Parent rootNode = null;
+        try {
+            rootNode=springFXMLLoader.load(fxmlFilePath,obj);
             Objects.requireNonNull(rootNode, "A Root FXML node must not be null");
         } catch (Exception exception) {
             logAndExit("Unable to load FXML view" + fxmlFilePath, exception);
