@@ -4,7 +4,7 @@
   <class id="1" language="java" name="co.edu.ufps.app.model.service.impl.ProductoServiceImpl" project="spring-boot-fx" 
     file="/spring-boot-fx/src/main/java/co/edu/ufps/app/model/service/impl/ProductoServiceImpl.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="135" width="160" x="1808" y="-127"/>    
+    <position height="135" width="160" x="1984" y="-97"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -14,7 +14,7 @@
   <class id="2" language="java" name="co.edu.ufps.app.controller.CajeroController" project="spring-boot-fx" 
     file="/spring-boot-fx/src/main/java/co/edu/ufps/app/controller/CajeroController.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="243" width="197" x="2245" y="-127"/>    
+    <position height="243" width="197" x="2421" y="-97"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -24,7 +24,7 @@
   <class id="3" language="java" name="co.edu.ufps.app.config.exception.AppException" project="spring-boot-fx" 
     file="/spring-boot-fx/src/main/java/co/edu/ufps/app/config/exception/AppException.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="117" width="150" x="186" y="-127"/>    
+    <position height="117" width="150" x="451" y="-97"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -34,7 +34,7 @@
   <class id="4" language="java" name="co.edu.ufps.app.controller.DataController" project="spring-boot-fx" 
     file="/spring-boot-fx/src/main/java/co/edu/ufps/app/controller/DataController.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="81" width="119" x="376" y="-127"/>    
+    <position height="81" width="119" x="641" y="-97"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -43,7 +43,7 @@
   </class>  
   <class id="5" language="java" name="co.edu.ufps.app.config.AppJavaConfig" project="spring-boot-fx" 
     file="/spring-boot-fx/src/main/java/co/edu/ufps/app/config/AppJavaConfig.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="135" width="204" x="1564" y="390"/>    
+    <position height="135" width="204" x="1740" y="420"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -52,7 +52,7 @@
   </class>  
   <class id="6" language="java" name="co.edu.ufps.app.config.StageManager" project="spring-boot-fx" 
     file="/spring-boot-fx/src/main/java/co/edu/ufps/app/config/StageManager.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="261" width="248" x="2453" y="390"/>    
+    <position height="261" width="248" x="2629" y="420"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -62,7 +62,7 @@
   <class id="7" language="java" name="co.edu.ufps.app.controller.ItemVentaController" project="spring-boot-fx" 
     file="/spring-boot-fx/src/main/java/co/edu/ufps/app/controller/ItemVentaController.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="189" width="137" x="535" y="-127"/>    
+    <position height="189" width="137" x="800" y="-97"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -72,7 +72,7 @@
   <class id="8" language="java" name="co.edu.ufps.app.controller.InventarioController" project="spring-boot-fx" 
     file="/spring-boot-fx/src/main/java/co/edu/ufps/app/controller/InventarioController.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="171" width="197" x="2008" y="-127"/>    
+    <position height="171" width="197" x="2184" y="-97"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -82,7 +82,7 @@
   <class id="9" language="java" name="co.edu.ufps.app.config.logging.ExceptionWriter" project="spring-boot-fx" 
     file="/spring-boot-fx/src/main/java/co/edu/ufps/app/config/logging/ExceptionWriter.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="117" width="221" x="712" y="-127"/>    
+    <position height="117" width="221" x="977" y="-97"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -92,7 +92,7 @@
   <interface id="10" language="java" name="co.edu.ufps.app.model.dao.UsuarioRepository" project="spring-boot-fx" 
     file="/spring-boot-fx/src/main/java/co/edu/ufps/app/model/dao/UsuarioRepository.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="81" width="217" x="3593" y="390"/>    
+    <position height="81" width="217" x="4006" y="420"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -102,7 +102,7 @@
   <class id="11" language="java" name="co.edu.ufps.app.controller.LoginController" project="spring-boot-fx" 
     file="/spring-boot-fx/src/main/java/co/edu/ufps/app/controller/LoginController.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="261" width="197" x="3119" y="-127"/>    
+    <position height="261" width="197" x="3295" y="-97"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -112,7 +112,7 @@
   <interface id="12" language="java" name="co.edu.ufps.app.model.dao.ProductoRepository" project="spring-boot-fx" 
     file="/spring-boot-fx/src/main/java/co/edu/ufps/app/model/dao/ProductoRepository.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="81" width="248" x="1808" y="390"/>    
+    <position height="81" width="248" x="1984" y="420"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -122,7 +122,7 @@
   <class id="13" language="java" name="co.edu.ufps.app.controller.ItemProductoController" project="spring-boot-fx" 
     file="/spring-boot-fx/src/main/java/co/edu/ufps/app/controller/ItemProductoController.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="261" width="197" x="3356" y="-127"/>    
+    <position height="261" width="197" x="3532" y="-97"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -132,7 +132,7 @@
   <class id="14" language="java" name="co.edu.ufps.app.SpringBootFxApplication" project="spring-boot-fx" 
     file="/spring-boot-fx/src/main/java/co/edu/ufps/app/SpringBootFxApplication.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="207" width="330" x="2482" y="-127"/>    
+    <position height="207" width="330" x="2658" y="-97"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -142,7 +142,7 @@
   <class id="15" language="java" name="co.edu.ufps.app.controller.UsuarioController" project="spring-boot-fx" 
     file="/spring-boot-fx/src/main/java/co/edu/ufps/app/controller/UsuarioController.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="207" width="197" x="973" y="-127"/>    
+    <position height="207" width="197" x="3769" y="-97"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -152,7 +152,7 @@
   <class id="16" language="java" name="co.edu.ufps.app.controller.AdminController" project="spring-boot-fx" 
     file="/spring-boot-fx/src/main/java/co/edu/ufps/app/controller/AdminController.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="81" width="119" x="1210" y="-127"/>    
+    <position height="81" width="119" x="1238" y="-97"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -161,7 +161,7 @@
   </class>  
   <class id="17" language="java" name="co.edu.ufps.app.model.entity.Usuario" project="spring-boot-fx" 
     file="/spring-boot-fx/src/main/java/co/edu/ufps/app/model/entity/Usuario.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="477" width="237" x="3850" y="-127"/>    
+    <position height="477" width="237" x="4263" y="-97"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -170,219 +170,236 @@
   </class>  
   <class id="18" language="java" name="co.edu.ufps.app.model.entity.Producto" project="spring-boot-fx" 
     file="/spring-boot-fx/src/main/java/co/edu/ufps/app/model/entity/Producto.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="477" width="283" x="3013" y="390"/>    
+    <position height="477" width="283" x="3426" y="420"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="19" language="java" name="co.edu.ufps.app.model.service.impl.AuthServiceImpl" project="spring-boot-fx" 
+  <class id="19" language="java" name="co.edu.ufps.app.util.User" project="spring-boot-fx" 
+    file="/spring-boot-fx/src/main/java/co/edu/ufps/app/util/User.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="108" x="1397" y="-97"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="co.edu.ufps.app.model.service.impl.AuthServiceImpl" project="spring-boot-fx" 
     file="/spring-boot-fx/src/main/java/co/edu/ufps/app/model/service/impl/AuthServiceImpl.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="117" width="217" x="3593" y="-127"/>    
+    <position height="135" width="217" x="4006" y="-97"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <enumeration id="20" language="java" name="co.edu.ufps.app.model.entity.Categoria" project="spring-boot-fx" 
+  <enumeration id="21" language="java" name="co.edu.ufps.app.model.entity.Categoria" project="spring-boot-fx" 
     file="/spring-boot-fx/src/main/java/co/edu/ufps/app/model/entity/Categoria.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="225" width="133" x="3013" y="907"/>    
+    <position height="225" width="133" x="3426" y="937"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </enumeration>  
-  <enumeration id="21" language="java" name="co.edu.ufps.app.view.FxmlView" project="spring-boot-fx" 
+  <enumeration id="22" language="java" name="co.edu.ufps.app.view.FxmlView" project="spring-boot-fx" 
     file="/spring-boot-fx/src/main/java/co/edu/ufps/app/view/FxmlView.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="279" width="240" x="1369" y="-127"/>    
+    <position height="279" width="240" x="1545" y="-97"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </enumeration>  
-  <enumeration id="22" language="java" name="co.edu.ufps.app.model.entity.Rol" project="spring-boot-fx" 
+  <enumeration id="23" language="java" name="co.edu.ufps.app.model.entity.Rol" project="spring-boot-fx" 
     file="/spring-boot-fx/src/main/java/co/edu/ufps/app/model/entity/Rol.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="117" width="133" x="3850" y="390"/>    
+    <position height="117" width="133" x="4263" y="420"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </enumeration>  
-  <class id="23" language="java" name="co.edu.ufps.app.controller.MenuController" project="spring-boot-fx" 
+  <class id="24" language="java" name="co.edu.ufps.app.controller.MenuController" project="spring-boot-fx" 
     file="/spring-boot-fx/src/main/java/co/edu/ufps/app/controller/MenuController.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="81" width="119" x="1649" y="-127"/>    
+    <position height="81" width="119" x="1825" y="-97"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="24" language="java" name="co.edu.ufps.app.config.SpringFXMLLoader" project="spring-boot-fx" 
+  <class id="25" language="java" name="co.edu.ufps.app.config.SpringFXMLLoader" project="spring-boot-fx" 
     file="/spring-boot-fx/src/main/java/co/edu/ufps/app/config/SpringFXMLLoader.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="153" width="299" x="2009" y="907"/>    
+    <position height="153" width="299" x="2185" y="937"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <interface id="25" language="java" name="co.edu.ufps.app.model.service.AuthService" project="spring-boot-fx" 
+  <interface id="26" language="java" name="co.edu.ufps.app.model.service.AuthService" project="spring-boot-fx" 
     file="/spring-boot-fx/src/main/java/co/edu/ufps/app/model/service/AuthService.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="99" width="217" x="3336" y="390"/>    
+    <position height="117" width="217" x="3749" y="420"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <interface id="26" language="java" name="co.edu.ufps.app.model.service.ProductoService" project="spring-boot-fx" 
+  <interface id="27" language="java" name="co.edu.ufps.app.model.service.ProductoService" project="spring-boot-fx" 
     file="/spring-boot-fx/src/main/java/co/edu/ufps/app/model/service/ProductoService.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="117" width="147" x="2096" y="390"/>    
+    <position height="117" width="147" x="2272" y="420"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <class id="27" language="java" name="co.edu.ufps.app.controller.VentaController" project="spring-boot-fx" 
+  <class id="28" language="java" name="co.edu.ufps.app.controller.VentaController" project="spring-boot-fx" 
     file="/spring-boot-fx/src/main/java/co/edu/ufps/app/controller/VentaController.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="297" width="227" x="2852" y="-127"/>    
+    <position height="297" width="227" x="3028" y="-97"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <association id="28">    
-    <end type="SOURCE" refId="5" navigable="false">      
-      <attribute id="29" name="springFXMLLoader"/>      
-      <multiplicity id="30" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="24" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="31">    
-    <end type="SOURCE" refId="27" navigable="false">      
-      <attribute id="32" name="stageManager"/>      
-      <multiplicity id="33" minimum="0" maximum="1"/>    
+  <association id="29">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="30" name="stageManager"/>      
+      <multiplicity id="31" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="6" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="34">    
-    <end type="SOURCE" refId="6" navigable="false">      
-      <attribute id="35" name="springFXMLLoader"/>      
-      <multiplicity id="36" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="24" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="37">    
-    <end type="SOURCE" refId="14" navigable="false">      
-      <attribute id="38" name="stageManager"/>      
-      <multiplicity id="39" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="6" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="40">    
-    <end type="SOURCE" refId="19" navigable="false">      
-      <attribute id="41" name="usuarioRepository"/>      
-      <multiplicity id="42" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="10" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="43">    
+  <association id="32">    
     <end type="SOURCE" refId="2" navigable="false">      
-      <attribute id="44" name="stageManager"/>      
-      <multiplicity id="45" minimum="0" maximum="1"/>    
+      <attribute id="33" name="stageManager"/>      
+      <multiplicity id="34" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="6" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="46">    
-    <end type="SOURCE" refId="8" navigable="false">      
-      <attribute id="47" name="productoService"/>      
-      <multiplicity id="48" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="26" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="49">    
-    <end type="SOURCE" refId="11" navigable="false">      
-      <attribute id="50" name="authService"/>      
-      <multiplicity id="51" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="25" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <realization id="52">    
+  <realization id="35">    
     <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="26"/>  
+    <end type="TARGET" refId="27"/>  
   </realization>  
-  <association id="53">    
+  <association id="36">    
     <end type="SOURCE" refId="1" navigable="false">      
-      <attribute id="54" name="productoRepository"/>      
-      <multiplicity id="55" minimum="0" maximum="1"/>    
+      <attribute id="37" name="productoRepository"/>      
+      <multiplicity id="38" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="12" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="56">    
-    <end type="SOURCE" refId="18" navigable="false">      
-      <attribute id="57" name="categoria"/>      
-      <multiplicity id="58" minimum="0" maximum="1"/>    
+  <association id="39">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="40" name="springFXMLLoader"/>      
+      <multiplicity id="41" minimum="0" maximum="1"/>    
     </end>    
-    <end type="TARGET" refId="20" navigable="true"/>    
+    <end type="TARGET" refId="25" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <realization id="59">    
-    <end type="SOURCE" refId="19"/>    
-    <end type="TARGET" refId="25"/>  
+  <association id="42">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="43" name="usuarioRepository"/>      
+      <multiplicity id="44" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="45">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="46" name="stageManager"/>      
+      <multiplicity id="47" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="48">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="49" name="authService"/>      
+      <multiplicity id="50" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="51">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="52" name="authService"/>      
+      <multiplicity id="53" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="54">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="26"/>  
   </realization>  
-  <association id="60">    
+  <association id="55">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="56" name="springFXMLLoader"/>      
+      <multiplicity id="57" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="58">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="59" name="productoService"/>      
+      <multiplicity id="60" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="61">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="62" name="stageManager"/>      
+      <multiplicity id="63" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="64">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="65" name="categoria"/>      
+      <multiplicity id="66" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="67">    
     <end type="SOURCE" refId="13" navigable="false">      
-      <attribute id="61" name="producto"/>      
-      <multiplicity id="62" minimum="0" maximum="1"/>    
+      <attribute id="68" name="producto"/>      
+      <multiplicity id="69" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="18" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="63">    
-    <end type="SOURCE" refId="11" navigable="false">      
-      <attribute id="64" name="stageManager"/>      
-      <multiplicity id="65" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="6" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="66">    
+  <association id="70">    
     <end type="SOURCE" refId="8" navigable="false">      
-      <attribute id="67" name="stageManager"/>      
-      <multiplicity id="68" minimum="0" maximum="1"/>    
+      <attribute id="71" name="stageManager"/>      
+      <multiplicity id="72" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="6" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="69">    
+  <association id="73">    
     <end type="SOURCE" refId="17" navigable="false">      
-      <attribute id="70" name="rol"/>      
-      <multiplicity id="71" minimum="0" maximum="1"/>    
+      <attribute id="74" name="rol"/>      
+      <multiplicity id="75" minimum="0" maximum="1"/>    
     </end>    
-    <end type="TARGET" refId="22" navigable="true"/>    
+    <end type="TARGET" refId="23" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
