@@ -3,8 +3,13 @@ package co.edu.ufps.app.controller;
 import java.net.URL;
 import java.util.ResourceBundle;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 
+import co.edu.ufps.app.model.entity.Usuario;
+import co.edu.ufps.app.model.service.AuthService;
+import co.edu.ufps.app.model.service.ProductoService;
+import co.edu.ufps.app.util.User;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
@@ -27,11 +32,19 @@ public class UsuarioController implements Initializable {
 
 	@FXML
 	private Button btnEditar;
+	
+	@Autowired
+	private AuthService authService;
 
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
-		// TODO Auto-generated method stub
-
+		Usuario usuario=authService.findOne(User.getId());
+		
+		labelNombre.setText(usuario.getNombre());
+		labelApellido.setText(usuario.getApellido());
+		labelCedula.setText(User.getId());
+		labelClave.setText("*********");
+		
 	}
 
 }

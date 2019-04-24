@@ -43,4 +43,12 @@ public class AuthServiceImpl implements AuthService {
 				.collect(Collectors.toList());
 	}
 
+	@Override
+	public Usuario findOne(String cedula) {
+		Optional<Usuario> opt=usuarioRepository.findByCedula(cedula);
+		Usuario usu=opt.get();
+		return usu;
+		
+	}
+
 }

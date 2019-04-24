@@ -22,6 +22,7 @@ import org.springframework.stereotype.Controller;
 import co.edu.ufps.app.config.StageManager;
 import co.edu.ufps.app.model.entity.Rol;
 import co.edu.ufps.app.model.service.AuthService;
+import co.edu.ufps.app.util.User;
 import co.edu.ufps.app.view.FxmlView;
 
 @Slf4j
@@ -61,12 +62,13 @@ public class LoginController implements Initializable {
 		String rol = fruitCombo.getValue();
 		
 		if(usernameText.isEmpty() || passwordText.isEmpty() || rol == null ) {
+			
 			lblLogin.setText("Diligencie todos lo campos.");
 			return;
 		}
 		
 		if(authService.autentifcar(usernameText, passwordText, rol)) {
-			
+			User.setId(usernameText);
 			if(Rol.Administrador.name().equals(rol)) {
 				
 				stageManager.switchScene(FxmlView.DASHBOARD_ADMINISTRADOR);
